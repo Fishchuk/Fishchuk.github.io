@@ -2,17 +2,17 @@ body {
     
     font-family: "Arial", sans-serif;
 	background-color: #ffffff;
-	margin: 50px;
 	width: 965px;
-	
+	padding-left:50%;
     
 }
 .conteiner{
+	width: 965px;
+	margin-left:-482px;
 	
-	margin: 0 auto;
 }
 .logo{
-	
+	margin-top: 50px;
 	margin-bottom: 45px;
 	
 }

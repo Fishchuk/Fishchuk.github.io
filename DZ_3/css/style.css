@@ -9,8 +9,8 @@ body {
 	
 	width: 1065px;
 	margin: 0 auto;
-	border-left: 3px solid #dbdbdb;
-	border-right: 3px solid #dbdbdb;
+	min-height: 960px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 	
 }
 .conteiner{

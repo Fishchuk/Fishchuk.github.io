@@ -7,12 +7,16 @@
 }
 body{
 	font-family: 'Helvetica Neue',Tahoma, sans-serif;
+	height: 100vh;
 	
 }
 
 .wrapper{
+	
+	
 	width: 1215px;
 	margin: 0 auto;
+	height: 100vh;
 	
 }
 header{
@@ -68,7 +72,7 @@ header{
 	color: #ffffff;
 	background-image: linear-gradient(to top, #2e7ac4 0%, #50afdc 100%);
 	font-size: 14px;
-	height: 37px;
+	height: 35px;
 	width: 190px;
 	
 }
@@ -80,6 +84,11 @@ header{
 	font-size: 14px;
 }
 .conteiner{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
 	background-image: url(../img/back-img.png);
 	min-height: 1030px;
 	width: 1215px;
@@ -89,11 +98,8 @@ header{
 .field-form{
 	width:560px;
     height:610px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin:-305px 0 0 -280px;
-	background-color: rgba(0,0,0,0.5); 
+	margin: 0 auto;
+    background-color: rgba(0,0,0,0.5); 
 }
 .field-form h2{
 	color: #ffffff;
@@ -111,17 +117,33 @@ header{
 	padding-top: 35px;
 	padding-bottom: 25px;
 }
+h3{
+	position: relative;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #999999;
+	margin-bottom: 30px;
+}
+h3>span{
+	display: inline-block;
+	}
+h3>span:before,
+h3>span:after{
+	content: url(../img/black-grey-line.png);
+	position: absolute;
+}
+h3>span:before{
+	left: 0px;
+	top: -3px;
+}
+h3>span:after{
+	left: 160px;
+	top: -3px;
+}
 
-  fieldset{
-	  border-top: 2px solid #666666;
-	  
-  }
-  legend{
-	  text-align: center;
-	  margin-bottom: 20px;
-	  color: #999999;
-  }
-  input[type=text]{
+   input[type=text]{
 	  background-color: #000000;
 	  color: #ffffff;
 	  width: 280px;

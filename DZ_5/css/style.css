@@ -90,7 +90,8 @@ header{
 	justify-content: center;
 	overflow: auto;
 	background-image: url(../img/back-img.png);
-	min-height: 1030px;
+	/*height: 1030px;*/
+	height: 94vh;
 	width: 1215px;
 	margin-top: -1px;
 	

@@ -7,7 +7,7 @@
 }
 body{
 	font-family: 'Helvetica Neue',Tahoma, sans-serif;
-	height: 100vh;
+	
 	
 }
 
@@ -16,7 +16,7 @@ body{
 	
 	width: 1215px;
 	margin: 0 auto;
-	height: 100vh;
+	min-height: 100vh;
 	
 }
 header{
@@ -72,7 +72,7 @@ header{
 	color: #ffffff;
 	background-image: linear-gradient(to top, #2e7ac4 0%, #50afdc 100%);
 	font-size: 14px;
-	height: 35px;
+	/*height: 35px;*/
 	width: 190px;
 	
 }
@@ -91,17 +91,19 @@ header{
 	overflow: auto;
 	background-image: url(../img/back-img.png);
 	/*height: 1030px;*/
-	height: 94vh;
+	min-height: 94vh;
 	width: 1215px;
 	margin-top: -1px;
+	
 	
 }
 .field-form{
 	width:560px;
-    height:610px;
+    /*height:610px;*/
 	margin: 0 auto;
     background-color: rgba(0,0,0,0.5); 
-}
+	
+	}
 .field-form h2{
 	color: #ffffff;
 	font-size: 24px;

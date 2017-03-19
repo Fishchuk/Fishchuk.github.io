@@ -15,10 +15,12 @@ body{
 	
 	width: 1215px;
 	margin: 0 auto;
-	min-height: 100%;
-	
+	min-height: 100vh;
+	display:flex;
+	flex-direction: column;
+		
 }
-header{
+ header{
 	width: 1215px;
 	background-color: #085596;
 	position: relative;
@@ -71,7 +73,6 @@ header{
 	color: #ffffff;
 	background-image: linear-gradient(to top, #2e7ac4 0%, #50afdc 100%);
 	font-size: 14px;
-	/*height: 35px;*/
 	width: 190px;
 	
 }
@@ -88,9 +89,8 @@ header{
 	align-items: center;
 	justify-content: center;
 	overflow: auto;
+	flex-grow: 1;
 	background-image: url(../img/back-img.png);
-	/*height: 1030px;*/
-	min-height: 94vh;
 	width: 1215px;
 	margin-top: -1px;
 	
@@ -98,7 +98,6 @@ header{
 }
 .field-form{
 	width:560px;
-    /*height:610px;*/
 	margin: 0 auto;
     background-color: rgba(0,0,0,0.5); 
 	

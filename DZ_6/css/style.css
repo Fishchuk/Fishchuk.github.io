@@ -7,7 +7,7 @@ body{
 	margin: 0 auto;
 }
 header{
-	margin-top: 21px;
+	margin-top: 20px;
 }
 .phone{
 	float: left;
@@ -20,7 +20,7 @@ header{
 .phone1{
 	height: 28px;
 	width: 25px;
-	background: url(../img/sprite.png)0 0 no-repeat;
+	background: url(../img/sprite1.png)0 0 no-repeat;
 	float: left;
 	margin-top: -1px;
 	padding-bottom: 2px;
@@ -32,14 +32,14 @@ header{
 	font-family: arial;
 	font-size: 18px;
 	float: right;
-	letter-spacing: 0.18px;
+	letter-spacing: 0.3px;
 	
 	
 }
 .enter{
 	width: 497px;
 	height: 25px;
-	background: url(../img/sprite.png)-127px 4px no-repeat, linear-gradient(to top, #0d3458 0%, #1f6787 100%);
+	background: url(../img/sprite1.png)-93px -1px no-repeat, linear-gradient(to top, #0d3458 0%, #1f6787 100%);
 	margin: 0 auto;
 	font-size: 11px;
 	float: left;
@@ -82,11 +82,11 @@ input[placeholder="пароль"]{
 .enter p a{
 	color: #ffffff;
 	text-decoration: none;
+	letter-spacing: 0.1px;
 }
 .enter p>a.forgot {
 	color: #bfbfbf;
-	
-	border-bottom: 1px solid #bfbfbf;
+	text-decoration: underline;
 	font-size: 12px;
 	
 }
@@ -97,8 +97,9 @@ input[placeholder="пароль"]{
 	border: 1px solid #c1c8cb;
 	border-radius: 10px;
 	margin-right: 8px;
-	margin-top: -3px;
+	margin-top: -2px;
 	background: url(../img/sprite.png)-161px -2px no-repeat;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
 	
  
 }
@@ -202,7 +203,7 @@ nav{
 	
 }
 .search{
-	margin-bottom: 165px;
+	margin-bottom: 164px;
 }
 .catalog{
 	float: left;
@@ -250,11 +251,12 @@ nav{
 	float: left;
 	height: 28px;
 	width: 25px;
-	background: url(../img/sprite.png)-61px 1px no-repeat;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
 }
 .name-tires {
 	list-style-type: circle;
 	margin-left: 55px;
+	margin-bottom: 1px;
 }
 .name-tires a {
 	color: #465961;
@@ -262,6 +264,7 @@ nav{
 	text-transform: none;
 	text-decoration: none;
 	margin-left: -8px;
+	padding: 6px 0px;
 	
 }
 .name-tires a:hover{
@@ -281,6 +284,7 @@ nav{
 	text-transform: none;
 	text-decoration: none;
 	margin-left: -8px;
+	padding: 6px 0px;
 }
 .name-disk a:hover{
 	font-family: arial;
@@ -288,6 +292,7 @@ nav{
 	font-weight: bold;
 	font-style: italic;
 	text-decoration: underline;
+	
 }
 .name-bolts{
 	list-style-type: circle;
@@ -299,6 +304,7 @@ nav{
 	text-transform: none;
 	text-decoration: none;
 	margin-left: -8px;
+	padding: 6px 0px;
 }
 .name-bolts a:hover{
 	font-family: arial;
@@ -336,17 +342,41 @@ nav{
 	border: 1px solid #8b979c;
 	border-radius: 20px;
 	margin-left: 14px;
-	margin-top: 11px;
+	margin-top: 13px;
 	
 }
 .circle1 p{
 	float: left;
 	height: 28px;
 	width: 25px;
-	background: url(../img/sprite.png)-61px 1px no-repeat;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
 	
 }
 .circle1 h4{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 30px;
+    padding-top: 3px;
+	letter-spacing: 1px;
+}
+.circle2 {
+	min-height: 27px;
+	width: 136px;
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	margin-left: 14px;
+	margin-top: 9px;
+	
+}
+.circle2 p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
+	
+}
+.circle2 h4{
 	color: #114165;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -378,7 +408,22 @@ nav{
 	padding-left: 3px;
 	
 }
-#brend1{
+#brend1 {
+	transform:scale(0.8);
+}
+#brend2 {
+	transform:scale(0.8);
+}
+#brend3{
+	transform:scale(0.8);
+}
+#brend4{
+	transform:scale(0.8);
+}
+#brend5{
+	transform:scale(0.8);
+}
+#brend6{
 	transform:scale(0.8);
 }
 .brend-disk{
@@ -412,21 +457,25 @@ button{
 	font-size: 11px;
 	font-family: arial;
 	text-transform: uppercase;
+	border: none;
 	
 }
-.product{
+section{
 	float: left;
 	width: 525px;
-	min-height: 628px;
+	min-height: 625px;
 	background: linear-gradient(to top, #93a7b0 0%, #e4e7e8 100%);
-	position: relative;
+	padding: 16px 0px 0px 23px;
+	
+}
+section>div{
+	display: inline-block;
 }
 .goodyear{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 23px;
-	top: 15px;
+	margin-right: 25px;
+	margin-bottom: 25px;
 }
 .goodyear img{
 	
@@ -464,9 +513,8 @@ button{
 .goodyear1{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 23px;
-	top: 218px;
+	margin-right: 25px;
+	margin-bottom: 25px;
 }
 .goodyear1 img{
 	
@@ -503,9 +551,7 @@ button{
 .goodyear2{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 23px;
-	top: 420px;
+	margin-right: 25px;
 }
 .goodyear2 img{
 	
@@ -542,9 +588,7 @@ button{
 .nokian{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 190px;
-	top: 15px;
+	margin-right: 22px;
 }
 .nokian img{
 	
@@ -581,9 +625,8 @@ button{
 .nokian1{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 190px;
-	top: 217px;
+	margin-right: 22px;
+	
 }
 .nokian1 img{
 	
@@ -619,9 +662,7 @@ button{
 }.nokian2{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 190px;
-	top: 420px;
+	margin-right: 22px;
 }
 .nokian2 img{
 	
@@ -658,9 +699,7 @@ button{
 .hankook{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 357px;
-	top: 15px;
+	
 }
 .hankook img{
 	
@@ -697,9 +736,7 @@ button{
 .hankook1{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 357px;
-	top: 217px;
+	
 }
 .hankook1 img{
 	
@@ -736,9 +773,7 @@ button{
 .hankook2{
 	height: 177px;
 	width: 138px;
-	position:absolute;
-	left: 357px;
-	top: 420px;
+	
 }
 .hankook2 img{
 	
@@ -774,16 +809,23 @@ button{
 }
 .tire_manufacturers{
 	clear: both;
-	padding-top: 30px;
+	padding-top: 29px;
 	margin-left: 118px;
 }
 .logo > li {
     position: relative;
     display: inline-block;
+	padding: 0px 1px;
+}
+.logo> li:nth-child(3){
+	margin-left: 5px;
+	margin-bottom: 25px;
+	padding-top: 3px;
+	
 }
 footer{
 	background: #213a4d;
-	margin-top: 25px;
+	
 	min-height: 100px;
 }
 .site-map{
@@ -796,7 +838,6 @@ footer{
 	font-size: 12px;
 }
 .site-map a{
-	/*display: block;*/
 	color: #bec6c9;
 	font-family: arial;
 	font-size: 12px;

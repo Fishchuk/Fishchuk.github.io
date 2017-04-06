@@ -1,0 +1,856 @@
+body{
+	font-family: 'Lucida Sans Unicode',arial,sans-serif;
+	
+}
+.wrapper{
+	width: 910px;
+	margin: 0 auto;
+}
+header{
+	margin-top: 20px;
+}
+.phone{
+	float: left;
+	width: 291px;
+	
+	margin-left: 5px;
+	margin-right: 17px;
+	
+}
+.phone1{
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite1.png)0 0 no-repeat;
+	float: left;
+	margin-top: -1px;
+	padding-bottom: 2px;
+	
+}
+.phone p{
+	display: block;
+	color: #5e696d;
+	font-family: arial;
+	font-size: 18px;
+	float: right;
+	letter-spacing: 0.3px;
+	
+	
+}
+.enter{
+	width: 497px;
+	height: 25px;
+	background: url(../img/sprite1.png)-93px -1px no-repeat, linear-gradient(to top, #0d3458 0%, #1f6787 100%);
+	margin: 0 auto;
+	font-size: 11px;
+	float: left;
+	padding-left: 26px;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	margin-top: -3px;
+	padding-bottom: 5px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	
+}
+.enter span{
+	margin-right: 5px;
+}
+#user{
+	width: 114px;
+	margin-top: 3px;
+
+	
+	
+}
+input[placeholder=логин]{
+	  padding-left: 3px;
+	  padding-bottom: 2px;
+  }
+#pass{
+	width: 114px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+input[placeholder="пароль"]{
+	padding-left: 3px;
+}
+.enter p{
+	float: right;
+	color: #ffffff;
+	margin-top: 3px;
+	padding-right: 8px;
+}
+.enter p a{
+	color: #ffffff;
+	text-decoration: none;
+	letter-spacing: 0.1px;
+}
+.enter p>a.forgot {
+	color: #bfbfbf;
+	text-decoration: underline;
+	font-size: 12px;
+	
+}
+.icon{
+	float: right;
+	width: 76px;
+	height: 21px;
+	border: 1px solid #c1c8cb;
+	border-radius: 10px;
+	margin-right: 8px;
+	margin-top: -2px;
+	background: url(../img/sprite.png)-161px -2px no-repeat;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	
+ 
+}
+nav{
+	width: 910px;
+	min-height: 34px;
+	background: linear-gradient(to top, #020202 0%, #2d3236 100%);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	box-shadow: 0 3px 3px #4d5663 inset;
+	margin-bottom: 12px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	position: relative;
+}
+.main-menu{
+	padding-left: 132px;
+	width: 670px;
+	margin-right: 5px;
+}
+.main-menu > li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+	
+	min-height: 20px;
+}
+.main-menu li:last-child {
+	
+
+}
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 6px 15px;
+    color: #b1bcc0;
+    text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.05px;
+}
+.main-menu > li:hover {
+	background: linear-gradient(to top, #0c3357 0%,#1f6787 100%);
+	color: #ffffff;
+	border-radius: 20px;
+	
+}
+.basket {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 232px;
+	height: 25px;
+}
+.basket p{
+	position: absolute;
+	top: 9px;
+	left: 32px;
+	font-family: arial;
+	font-size: 11px;
+	color: #b1bcc0;
+	letter-spacing: 0.3px;
+}
+.logo-basket{
+	background: url(../img/sprite.png)-94px 5px no-repeat;
+	height: 25px;
+	width: 25px;
+	
+}
+.basket span{
+	color: #0d5a8f;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+.avto{
+	float: left;
+	width: 416px;
+	min-height: 136px;
+	border: 1px solid #b6b6b7;
+	border-radius: 15px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	margin-right: 11px;
+	margin-left: 5px;
+}
+.disk{
+	float: right;
+	width: 268px;
+	min-height: 136px;
+	border: 1px solid #b6b6b7;
+	border-radius: 15px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	margin-right: 5px;
+}
+.tires{
+	float: left;
+	width: 193px;
+	min-height: 136px;
+	border: 1px solid #b6b6b7;
+	border-radius: 15px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	
+}
+.search{
+	margin-bottom: 164px;
+}
+.catalog{
+	float: left;
+	width: 193px;
+}
+.note{
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	min-height: 27px;
+	width: 182px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.note h3{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-top: 3px;
+	}
+.note p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite.png)-27px 1px no-repeat;
+	
+}
+.name-сatalog{
+	margin-top: 14px;
+}
+.circle h4{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 30px;
+	padding-top: 3px;
+	letter-spacing: 1px;
+}
+.circle {
+	min-height: 27px;
+	width: 149px;
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	
+}
+.circle p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
+}
+.name-tires {
+	list-style-type: circle;
+	margin-left: 55px;
+	margin-bottom: 1px;
+}
+.name-tires a {
+	color: #465961;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	margin-left: -8px;
+	padding: 6px 0px;
+	
+}
+.name-tires a:hover{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+.name-disk{
+	list-style-type: circle;
+	margin-left: 55px;
+}
+.name-disk a{
+	color: #465961;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	margin-left: -8px;
+	padding: 6px 0px;
+}
+.name-disk a:hover{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	
+}
+.name-bolts{
+	list-style-type: circle;
+	margin-left: 55px;
+}
+.name-bolts a{
+	color: #465961;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	margin-left: -8px;
+	padding: 6px 0px;
+}
+.name-bolts a:hover{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+.note1{
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	min-height: 27px;
+	width: 182px;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+	padding-bottom: 2px;
+}
+.note1 h3{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-top: 2px;
+	padding-left: 32px;
+	}
+.note1 p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite.png)-27px -1px no-repeat;
+	
+}	
+
+.circle1 {
+	min-height: 27px;
+	width: 136px;
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	margin-left: 14px;
+	margin-top: 13px;
+	
+}
+.circle1 p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
+	
+}
+.circle1 h4{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 30px;
+    padding-top: 3px;
+	letter-spacing: 1px;
+}
+.circle2 {
+	min-height: 27px;
+	width: 136px;
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	margin-left: 14px;
+	margin-top: 9px;
+	
+}
+.circle2 p{
+	float: left;
+	height: 28px;
+	width: 25px;
+	background: url(../img/sprite1.png)-46px -2px no-repeat;
+	
+}
+.circle2 h4{
+	color: #114165;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 30px;
+    padding-top: 3px;
+	letter-spacing: 1px;
+}
+.brend{
+	float: right;
+	width: 184px;
+}
+.brend-tires{
+	margin-left: 25px;
+	margin-top: 3px;
+	min-height: 65px;
+	
+	
+}
+.brend-tires li:nth-child(1){
+	
+	padding-left: 2px;
+}
+.brend-tires label{
+	
+	color: #465961;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	padding-left: 3px;
+	
+}
+#brend1 {
+	transform:scale(0.8);
+}
+#brend2 {
+	transform:scale(0.8);
+}
+#brend3{
+	transform:scale(0.8);
+}
+#brend4{
+	transform:scale(0.8);
+}
+#brend5{
+	transform:scale(0.8);
+}
+#brend6{
+	transform:scale(0.8);
+}
+.brend-disk{
+	margin-left: 25px;
+	margin-top: 3px;
+	min-height: 65px;
+	margin-bottom: 14px;
+	
+}
+
+.brend-disk label{
+	color: #465961;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	padding-left: 3px;
+}
+.brend-disk a:hover{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+button{
+	background:linear-gradient(to top, #0d3458 0%, #1f6787 100%);
+	color: #ffffff;
+	border-radius: 20px;
+	height: 28px;
+	width: 82px;
+	margin-left: 23px;
+	font-size: 11px;
+	font-family: arial;
+	text-transform: uppercase;
+	border: none;
+	
+}
+section{
+	float: left;
+	width: 525px;
+	min-height: 625px;
+	background: linear-gradient(to top, #93a7b0 0%, #e4e7e8 100%);
+	padding: 16px 0px 0px 23px;
+	
+}
+section>div{
+	display: inline-block;
+}
+.goodyear{
+	height: 177px;
+	width: 138px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.goodyear img{
+	
+	border-radius: 10px;
+	min-height: 128px;
+	margin-top: -3px;
+}
+.goodyear h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.goodyear p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.goodyear p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.goodyear p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.goodyear1{
+	height: 177px;
+	width: 138px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.goodyear1 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.goodyear1 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.goodyear1 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.goodyear1 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.goodyear1 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.goodyear2{
+	height: 177px;
+	width: 138px;
+	margin-right: 25px;
+}
+.goodyear2 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.goodyear2 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.goodyear2 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.goodyear2 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.goodyear2 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.nokian{
+	height: 177px;
+	width: 138px;
+	margin-right: 22px;
+}
+.nokian img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.nokian h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.nokian p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.nokian p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.nokian p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.nokian1{
+	height: 177px;
+	width: 138px;
+	margin-right: 22px;
+	
+}
+.nokian1 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.nokian1 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.nokian1 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.nokian1 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.nokian1 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}.nokian2{
+	height: 177px;
+	width: 138px;
+	margin-right: 22px;
+}
+.nokian2 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.nokian2 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.nokian2 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.nokian2 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.nokian2 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.hankook{
+	height: 177px;
+	width: 138px;
+	
+}
+.hankook img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.hankook h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.hankook p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.hankook p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.hankook p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.hankook1{
+	height: 177px;
+	width: 138px;
+	
+}
+.hankook1 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.hankook1 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.hankook1 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.hankook1 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.hankook1 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.hankook2{
+	height: 177px;
+	width: 138px;
+	
+}
+.hankook2 img{
+	
+	border-radius: 10px;
+	margin-top: -3px;
+}
+.hankook2 h5{
+	color: #206988;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.6em;
+}
+.hankook2 p{
+  color: #1f2528;
+  font-size: 13px;
+  text-align: center;
+  
+}
+.hankook2 p.price{
+	font-family: arial;
+	color: #114165;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 4px;
+}
+.hankook2 p.price span{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0.6em;
+}
+.tire_manufacturers{
+	clear: both;
+	padding-top: 29px;
+	margin-left: 118px;
+}
+.logo > li {
+    position: relative;
+    display: inline-block;
+	padding: 0px 1px;
+}
+.logo> li:nth-child(3){
+	margin-left: 5px;
+	margin-bottom: 25px;
+	padding-top: 3px;
+	
+}
+footer{
+	background: #213a4d;
+	
+	min-height: 100px;
+}
+.site-map{
+	text-align:center;
+}
+.site-map>li{
+	display: inline-block;
+	color: #bec6c9;
+	font-family: arial;
+	font-size: 12px;
+}
+.site-map a{
+	color: #bec6c9;
+	font-family: arial;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+.site-map a:hover{
+	color:#52abcb;
+}
+footer p{
+	color: #7f4740;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 13px;
+}
